@@ -1,0 +1,72 @@
+
+.edit_20220401 {
+	.w100 {
+	  width: 100% !important;
+		&.d-01b {
+			.d-01b_wrap {
+				@media screen and (max-width: 767px) {
+					width: 100%;
+				}
+				&.l-hor {
+					.d-01b_inner {
+						@media screen and (max-width: 767px) {
+							margin: 0 auto;
+							width: 100%;
+						}
+						&.ft20 {
+							a {
+								@media screen and (max-width: 767px) {
+									font-size: 5vw;
+								}
+							}
+						}
+					}
+
+				}
+			}
+		}
+	}
+	.i-07 {
+		.a-07 {
+			width: 100%;
+			margin-bottom: 0.333em;
+		}
+	}
+	.tl-fixed {
+	  table-layout: fixed;
+	}
+	.tl-fixed {
+		.ua-mac_os_x & {
+			table-layout: inherit;
+		}
+		.ua-ios & {
+			table-layout: inherit;
+		}
+	}
+
+	.uniform-list {
+	  .x-04_wrap .ph {
+		width: calc(50% - 35px);
+		margin-left: 0;
+		margin-right: 0;
+		@media screen and (max-width: 767px) {
+		  margin-top: 2rem;
+		  width: 100%;
+		}
+	  }
+	}
+
+	.desc-embroidery {
+	  @media screen and (max-width: 767px) {
+		order: 1;
+	  }
+	  &-cont {
+		margin: auto 0;
+		background-color: #f3f7e7;
+		padding: 2rem 1rem;
+		figcaption {
+		  margin-top: 2rem;
+		}
+	  }
+	}
+}

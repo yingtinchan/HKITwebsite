@@ -1,0 +1,105 @@
+.libsearch{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 0.5px solid rgba(156,199,21,0.8);
+    border-left:  0.5px solid rgba(156,199,21,0.8);
+    border-right:  0.5px solid rgba(156,199,21,0.8);
+    border-top:  0.5px solid rgba(156,199,21,0.8);
+    border-radius: 0 15px 15px 15px;
+}
+
+.libsearch > .search-input{
+    width: 85%;
+}
+
+.libsearch > button {
+    width: 10%;
+    border-radius: 15px;
+    background-color: rgba(156,199,21);
+    border: none;
+    color: #FFF;
+    font-weight: 500;
+    padding: 8px;
+}
+
+.resultbox{
+    margin-top: 50px;
+    width: 100%;
+}
+
+.resultbox > tbody > tr > th:first-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resultbox > tbody > tr > th:nth-child(2) {
+    width: 500px;
+}
+
+@media screen and (max-width: 767px) {
+    .resultbox > tbody > tr > th:nth-child(2) {
+        width: 130px;
+    }
+}
+
+.bookresult{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.bookresult > span{
+    width: 150px;
+}
+
+.booktitle{
+    display: flex;
+    justify-content: space-around;
+}
+
+.bookresult-btn{
+    border-radius: 15px;
+    background-color: rgba(156,199,21);
+    border: none;
+    color: #FFF;
+    font-weight: 500;
+    padding: 8px;
+}
+
+.typebutton {
+    border-top: 0.5px solid;
+    border-left: 0.5px solid;
+    border-right: 0.5px solid;
+    border-bottom: none;
+    color: #FFF;
+    font-weight: 500;
+    padding: 8px;
+    border-radius: 15px 15px 0 0;
+    background-color: rgba(156,199,21,0.8);
+}
+
+.typebutton:active,
+.active{
+    color: rgba(156,199,21,0.8);
+    background-color: #FFF;
+}
+
+.book-status{
+    border-radius: 15px;
+    background-color: rgb(199, 21, 21);
+    color: #FFF;
+    font-weight: 500;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.on{
+    background-color: rgba(156,199,21);
+}
+
+.off{
+    background-color: rgb(175, 175, 175);
+}

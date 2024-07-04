@@ -1,0 +1,69 @@
+.edit_20220401 .w100 {
+    width: 100% !important
+}
+
+@media screen and (max-width: 767px) {
+    .edit_20220401 .w100.d-01b .d-01b_wrap {
+        width:100%
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .edit_20220401 .w100.d-01b .d-01b_wrap.l-hor .d-01b_inner {
+        margin:0 auto;
+        width: 100%
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .edit_20220401 .w100.d-01b .d-01b_wrap.l-hor .d-01b_inner.ft20 a {
+        font-size:5vw
+    }
+}
+
+.edit_20220401 .i-07 .a-07 {
+    width: 100%;
+    margin-bottom: 0.333em
+}
+
+.edit_20220401 .tl-fixed {
+    table-layout: fixed
+}
+
+.ua-mac_os_x .edit_20220401 .tl-fixed {
+    table-layout: inherit
+}
+
+.ua-ios .edit_20220401 .tl-fixed {
+    table-layout: inherit
+}
+
+.edit_20220401 .uniform-list .x-04_wrap .ph {
+    width: calc(50% - 35px);
+    margin-left: 0;
+    margin-right: 0
+}
+
+@media screen and (max-width: 767px) {
+    .edit_20220401 .uniform-list .x-04_wrap .ph {
+        margin-top:2rem;
+        width: 100%
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .edit_20220401 .desc-embroidery {
+        order:1
+    }
+}
+
+.edit_20220401 .desc-embroidery-cont {
+    margin: auto 0;
+    background-color: #f3f7e7;
+    padding: 2rem 1rem
+}
+
+.edit_20220401 .desc-embroidery-cont figcaption {
+    margin-top: 2rem
+}
+
